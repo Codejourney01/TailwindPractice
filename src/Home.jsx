@@ -8,9 +8,9 @@ export default function Home() {
     <div className='w-full h-dvh md:h-lvh bg-cover'>
        <div className='w-full text-left  text-black  pt-9 pl-4 md:pl-9'>
                 <div className='w-full flex justify-between pr-2 md:pr-6'>
-                <span className='md:text-4xl text-[14px] font-semibold'>Tailwind CSS Project Showcase</span>
+                <span className='md:text-4xl text-[16px] font-bold font-[Inter]'>Tailwind CSS Project Showcase</span>
                 <a href="https://github.com/Codejourney01" target='_blank'>
-                  <button className='bg-blue-400 text-white md:w-[120px] w-[70px] h-5 text-[7px] md:text-[13px] md:h-8 rounded-md font-bold hover:bg-black flex items-center justify-center gap-1'>
+                  <button className='bg-blue-400 text-white md:w-[120px] w-[90px] h-5 text-[9px] md:text-[13px] md:h-8 rounded-md font-bold hover:bg-black flex items-center justify-center gap-1'>
                     <img src={github} className='w-3' alt="" />
                      View Github </button>
 
