@@ -1,6 +1,6 @@
 import React from 'react'
 import github from './github.png'
-import Projectcard from './projectcard'
+import Projectcard from './projectcard.jsx'
 
 export default function Home() {
   return (
