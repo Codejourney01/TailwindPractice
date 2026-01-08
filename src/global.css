@@ -3,15 +3,21 @@
   font-size: 28px !important;
 }
 
-/* Optional: button container styling */
+
 .swiper-button-next,
 .swiper-button-prev {
   width: 33px;
   height: 33px;
-  color:white;
+  color: white;
   background-color: #0284c7;
   border-radius: 9999px;
   z-index: 50;
 }
 
- 
+
+@media only screen and (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
