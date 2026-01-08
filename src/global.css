@@ -1,0 +1,17 @@
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 28px !important;
+}
+
+/* Optional: button container styling */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 33px;
+  height: 33px;
+  color:white;
+  background-color: #0284c7;
+  border-radius: 9999px;
+  z-index: 50;
+}
+
+ 
