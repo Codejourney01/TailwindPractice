@@ -1,11 +1,11 @@
-.swiper-button-next::after,
-.swiper-button-prev::after {
+.prev-btn::after,
+.next-btn::after {
   font-size: 28px !important;
 }
 
 
-.swiper-button-next,
-.swiper-button-prev {
+.prev-btn,
+.next-btn {
   width: 33px;
   height: 33px;
   color: white;
@@ -15,9 +15,9 @@
 }
 
 
-@media only screen and (max-width: 768px) {
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: none;
+@media screen and  (max-width: 768px) {
+  .prev-btn,
+  .next-btn {
+    display: none !important;
   }
 }
