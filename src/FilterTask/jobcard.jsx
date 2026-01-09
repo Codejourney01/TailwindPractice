@@ -25,7 +25,7 @@ export default function Jobcard({job}) {
                             </div>
                         </div>
                         <div
-                            className="text-black text-[16px] md:text-[15px] font-semibold font=[Poppins] pt-3 md:pt-2 hover:text-[#6EA2AE] cursor-pointer">
+                            className="text-black text-[16px] md:text-[15px] font-bold font=[Poppins] pt-3 md:pt-2 hover:text-[#6EA2AE] cursor-pointer">
                           {job.position}
                         </div>
                         <div className="flex text-[10px] md:text-[12px] gap-7 md:justify-between md:gap-3 text-slate-500 px-2 pt-1">
