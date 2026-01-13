@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import github from './github.png'
 import Projectcard from './projectcard.jsx'
 
 export default function Home() {
+  const [projects,setProject]=useState([])
+  useEffect(()=>{
+        fetch('project.json')
+        .then((response)=>response.json())
+        .then((data)=>setProject(data))
+  },[]);
   return (
 
     <div className='w-full h-dvh md:h-lvh bg-cover'>
@@ -22,7 +28,13 @@ export default function Home() {
                 <p className='text-[10px]  md:text-base  text-slate-500 font-normal pl-1 md:pt-2 md:pl-2'>Real-world UI projects built with Tailwind + React</p>
        </div>
        <div className='w-full h-400px flex items-center justify-center'>
-       <Projectcard />
+        {
+          projects.map((key)=>
+          (
+              <Projectcard project={key} />
+
+          ))
+        }
 
        </div>
     </div>

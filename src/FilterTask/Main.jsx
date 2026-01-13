@@ -3,6 +3,7 @@ import bgdesk from './bg-header-desktop.svg'
 import bgmob from './bg-header-mobile.svg'
 import arrow from './arrow-right-1-svgrepo-com.svg'
 import Jobcard from './jobcard.jsx'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -37,7 +38,10 @@ export default function Main() {
         <div className=" w-full pl-1 md:pl-8 ">
             <div className=" logo-container text-center text-[15px] md:text-[18px] pt-4 font-medium font-[Poppins] flex
                 md:text-left md:pt-5">
+                  <NavLink to="/">
             <img src={arrow} className="w-5 " alt=""/>
+
+                  </NavLink>
             <h1 className="pl-[2px]">Open to Roles at Industry <span className="text-[#6EA2A3] sm:pl-1"> Leaders </span></h1>
     </div>
     <p className="text-slate-500 pl-5 text-[9px] pt-[3px] md:pl-6 md:text-[14px] font-normal text-justify w-full">We are
